@@ -8,6 +8,20 @@ A cutting-edge **real-time** AI-powered data analysis and machine learning platf
 ![FastAPI](https://img.shields.io/badge/fastapi-0.104.1-009688)
 ![Docker](https://img.shields.io/badge/docker-ready-2496ED)
 
+<img width="1909" height="892" alt="image" src="https://github.com/user-attachments/assets/61e4c80c-0ceb-4ca6-8d98-87cc63cc10da" />
+<img width="1897" height="894" alt="image" src="https://github.com/user-attachments/assets/e355c8c9-7266-42ee-ac3b-8b4808f36b7c" />
+<img width="1905" height="901" alt="image" src="https://github.com/user-attachments/assets/be9ec279-7f1c-47d8-a9f0-1b40bb66112d" />
+<img width="1892" height="895" alt="image" src="https://github.com/user-attachments/assets/a520d094-5795-4019-b858-ed0dc5013231" />
+<img width="1877" height="895" alt="image" src="https://github.com/user-attachments/assets/aeb81c87-d347-477d-b465-2210a9d61771" />
+<img width="1873" height="888" alt="image" src="https://github.com/user-attachments/assets/c4f669d4-a3ec-438b-8d68-00db94688e6b" />
+<img width="1874" height="889" alt="image" src="https://github.com/user-attachments/assets/d31fb247-105b-4755-8902-105bfdbd49ab" />
+<img width="1879" height="888" alt="image" src="https://github.com/user-attachments/assets/51ffa7e2-b0de-4b7e-9e75-8e2a46c6c753" />
+<img width="1886" height="879" alt="image" src="https://github.com/user-attachments/assets/60b2b62e-7bbc-479a-a143-d7efd5cb3fb5" />
+<img width="1878" height="885" alt="image" src="https://github.com/user-attachments/assets/132ee674-5d19-484c-9c9f-bd58957e52be" />
+<img width="1862" height="872" alt="image" src="https://github.com/user-attachments/assets/2f43b5d4-397e-4cdc-8860-50d86eb6cde7" />
+<img width="1878" height="886" alt="image" src="https://github.com/user-attachments/assets/e361a93b-dea7-48f0-9ccb-669b0a58fc7b" />
+<img width="1889" height="882" alt="image" src="https://github.com/user-attachments/assets/9ee8ee9b-a856-4b0e-98df-cc7ddedd6a97" />
+
 ---
 
 ## 🌟 Key Features
