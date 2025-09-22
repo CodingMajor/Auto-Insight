@@ -1,0 +1,89 @@
+services:
+  # Redis for Celery and caching
+  redis:
+    image: redis:7-alpine
+    container_name: auto-insights-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    command: redis-server --appendonly yes
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+    networks:
+      - auto-insights-network
+
+  # Backend API
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: auto-insights-backend
+    environment:
+      - DATABASE_URL=sqlite:///./data/auto_insights.db
+      - MINIO_ENDPOINT=localhost:9000
+      - MINIO_ACCESS_KEY=minioadmin
+      - MINIO_SECRET_KEY=minioadmin
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - REDIS_URL=redis://redis:6379/0
+    volumes:
+      - ./backend:/app
+      - ./data:/app/data
+    ports:
+      - "8000:8000"
+    depends_on:
+      redis:
+        condition: service_healthy
+    networks:
+      - auto-insights-network
+    restart: unless-stopped
+
+  # Celery Workers for background processing
+  celery_worker:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    environment:
+      - DATABASE_URL=sqlite:///./data/auto_insights.db
+      - MINIO_ENDPOINT=localhost:9000
+      - MINIO_ACCESS_KEY=minioadmin
+      - MINIO_SECRET_KEY=minioadmin
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - REDIS_URL=redis://redis:6379/0
+    volumes:
+      - ./backend:/app
+      - ./data:/app/data
+    depends_on:
+      redis:
+        condition: service_healthy
+    networks:
+      - auto-insights-network
+    command: celery -A celery_app worker --loglevel=info --concurrency=2
+    restart: unless-stopped
+
+  # Flower for Celery monitoring
+  flower:
+    image: mher/flower
+    container_name: auto-insights-flower
+    ports:
+      - "5555:5555"
+    environment:
+      - CELERY_BROKER_URL=redis://redis:6379/0
+      - CELERY_RESULT_BACKEND=redis://redis:6379/0
+    depends_on:
+      redis:
+        condition: service_healthy
+    networks:
+      - auto-insights-network
+    command: flower --port=5555 --broker=redis://redis:6379/0
+    restart: unless-stopped
+
+volumes:
+  redis_data:
+
+networks:
+  auto-insights-network:
+    driver: bridge

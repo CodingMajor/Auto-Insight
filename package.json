@@ -1,0 +1,19 @@
+{
+  "name": "auto-insights",
+  "version": "1.0.0",
+  "description": "Auto Insights Platform - AI-powered data analysis and visualization",
+  "scripts": {
+    "frontend:dev": "cd frontend && npm run dev",
+    "frontend:build": "cd frontend && npm run build",
+    "frontend:preview": "cd frontend && npm run preview",
+    "validate": "python validate_platform.py",
+    "test": "python test_realtime.py",
+    "docker:up": "docker-compose up -d",
+    "docker:down": "docker-compose down",
+    "docker:build": "docker-compose up --build",
+    "start": "docker-compose up -d"
+  },
+  "keywords": ["data-analysis", "ai", "visualization", "insights"],
+  "author": "Auto Insights Team",
+  "license": "MIT"
+}
