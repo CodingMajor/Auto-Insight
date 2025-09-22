@@ -445,37 +445,6 @@ docker-compose exec backend pip list | grep -E "(pandas|scikit-learn|flaml)"
 ```bash
 # Solution: Check MinIO service and permissions
 docker-compose logs minio
-```
-
-### **Getting Help**
-1. Check the [Issues](https://github.com/your-repo/issues) page
-2. Review the [Discussions](https://github.com/your-repo/discussions) forum
-3. Submit a detailed bug report with logs and reproduction steps
-
----
-
-## 🎯 Roadmap
-
-### **Phase 1 (Current) ✅**
-- Real-time EDA analysis
-- AutoML with live progress
-- WebSocket integration
-- Modern React UI
-- Docker deployment
-
-### **Phase 2 (Next) 🚧**
-- [ ] Advanced ML features (NLP, Computer Vision)
-- [ ] Model deployment and serving
-- [ ] Advanced visualizations
-- [ ] API rate limiting
-- [ ] User authentication & authorization
-
-### **Phase 3 (Future) 📋**
-- [ ] Multi-tenant architecture
-- [ ] Cloud-native deployment
-- [ ] Advanced monitoring & alerting
-- [ ] Model marketplace
-- [ ] Mobile application
 
 ---
 
@@ -490,17 +459,6 @@ docker-compose logs minio
 ---
 
 **Built with ❤️ for data scientists, ML engineers, and business analysts who need instant insights from their data.**
-
----
-
-## 📞 Contact
-
-For questions, suggestions, or collaboration opportunities:
-
-- **Email**: contact@auto-insights.com
-- **LinkedIn**: [Auto-Insights Platform](https://linkedin.com/company/auto-insights)
-- **Twitter**: [@AutoInsightsAI](https://twitter.com/AutoInsightsAI)
-- **Documentation**: [docs.auto-insights.com](https://docs.auto-insights.com)
 
 ---
 
